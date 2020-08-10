@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+  <style type="text/css">
+  html{
+    overflow-y:auto;
+    height:100%;
+  }
+  body{
+    margin:0;
+    padding:0;
+    height:100%;
+  }
+  a{
+    text-decoration: none;
+  }
+  .left_bar_list{
+    height: 100%;
+    width: 137px;
+    position: fixed;
+    background-color: cadetblue;
+  }
+  .top_bar_news{
+    position:relative;
+    left: 137px;
+    height: 10%;
+    background-color: burlywood;
+  }
+  .top_bar_action{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+  }
+  .new_info{
+    left: 3px;
+    text-decoration: none;
+  }
+  </style>
+</html>
