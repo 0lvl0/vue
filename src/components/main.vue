@@ -1,11 +1,14 @@
 <template>
   <div>
     <div class="left_bar_list">
-      <img class="left_logo" src="./../assets/logo.png" alt="Surreal">
-        <p>Dashboard</p>
-        <p>Profiles</p>
-        <p>Bills</p>
-        <p>Support</p>
+      <img class="left_logo" src="./../assets/logo.png" alt="Surreal" />
+      <p>
+        <a href="/dashboard">Dashboard</a>
+      </p>
+      <p>Profiles</p>
+      <p>Bills</p>
+      <p>Support</p>
+      <p>account</p>
     </div>
     <div class="container">
       <div class="top_bar_news">
@@ -39,12 +42,12 @@
   </div>
 </template>
 <style>
-p{
-  height:60px;
+p {
+  height: 100px;
   width: 137px;
   overflow: hidden;
   text-align: center;
-  background-color: blueviolet;
+  background-color: rgb(8, 150, 84);
   border-radius: 30px;
   align-content: center;
   display: grid;
