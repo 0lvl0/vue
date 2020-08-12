@@ -1,7 +1,11 @@
 <template>
   <div>
     <div class="left_bar_list">
-      <li>User</li>
+      <img class="left_logo" src="./../assets/logo.png" alt="Surreal">
+        <p>Dashboard</p>
+        <p>Profiles</p>
+        <p>Bills</p>
+        <p>Support</p>
     </div>
     <div class="container">
       <div class="top_bar_news">
@@ -34,3 +38,15 @@
     </div>
   </div>
 </template>
+<style>
+p{
+  height:60px;
+  width: 137px;
+  overflow: hidden;
+  text-align: center;
+  background-color: blueviolet;
+  border-radius: 30px;
+  align-content: center;
+  display: grid;
+}
+</style>
