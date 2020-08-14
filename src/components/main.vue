@@ -6,7 +6,7 @@
       <div style="height:30px"></div>
       <a href="/dashboard">Dashboard</a>
       <a href="/profiles">Profiles</a>
-      <a href="/bills">Bills</a>
+      <a href="/test">Bills</a>
       <a href="/support">Support</a>
       <a href="/account">Account</a>
     </div>

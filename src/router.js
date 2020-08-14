@@ -12,7 +12,12 @@ const routes = [
     {
     path: '/redirect',
     component: () => import('./components/main.vue')
-}]
+    },
+    {
+    path: '/test',
+    component: () => import('./components/test.vue')
+    }
+]
 
 const router = new VueRouter({
     routes,
