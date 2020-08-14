@@ -1,14 +1,13 @@
 <template>
   <div>
     <div class="left_bar_list">
-      <img class="left_logo" src="./../assets/logo.png" alt="Surreal" />
-      <p>
-        <a href="/dashboard">Dashboard</a>
-      </p>
-      <p>Profiles</p>
-      <p>Bills</p>
-      <p>Support</p>
-      <p>account</p>
+      <img class="left_logo" src="./../assets/logo.png" alt="Surreal">
+      <div style="height:30px"></div>
+      <a href="/dashboard">Dashboard</a>
+      <a href="/profiles">Profiles</a>
+      <a href="/bills">Bills</a>
+      <a href="/support">Support</a>
+      <a href="/account">Account</a>
     </div>
     <div class="container">
       <div class="top_bar_news">
@@ -42,14 +41,15 @@
   </div>
 </template>
 <style>
-p {
+.left_bar_list a {
+  text-decoration: none;
   height: 100px;
-  width: 137px;
+  width: 135px;
   overflow: hidden;
   text-align: center;
-  background-color: rgb(8, 150, 84);
-  border-radius: 30px;
+  border: 90px;
   align-content: center;
   display: grid;
+  color: black;
 }
 </style>
