@@ -1,10 +1,10 @@
 <template>
     <div>
-            <p>wonyun!</p>
+            <p><b>Yuanhan!</b></p>
 
     </div>
 </template>
     <style>
-        p:before{content: "hello "}
-        p:after{content: "you are handsome!"}
+        p:before{content: "Hello "}
+        p:after{content: " You are handsome!"}
     </style>
