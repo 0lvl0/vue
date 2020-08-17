@@ -16,7 +16,11 @@ const routes = [
     {
     path: '/test',
     component: () => import('./components/test.vue')
-    }
+    },
+    {
+    path: '/profiles',
+    component: () => import('./components/profiles.vue')
+    },
 ]
 
 const router = new VueRouter({

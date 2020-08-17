@@ -13,7 +13,7 @@
     <!-- 右侧整体容器布局 -->
     <div class="container">
       <!-- 顶部边栏设置 -->
-      <div class="top_bar_news">
+      <div class="top_bar">
         <a
           class="new_artical"
           href="https://baidu.com"
@@ -29,9 +29,7 @@
           >Announcing API</a
         >
         <!-- 右上角按钮 -->
-        <div class="top_bar_action">
-          <a class="top_action" href="/support/" target="_blank">帮助</a>
-        </div>
+        <a class="top_action" href="/support/" target="_blank">帮助</a>
       </div>
       <!-- 正文内容区域 -->
       <div style="height:auto">
@@ -45,6 +43,14 @@
   </div>
 </template>
 <style>
+.left_bar_list {
+  height: 100%;
+  border: 1px black solid;
+  width: 135px;
+  position: fixed;
+  background-color: rgb(20, 70, 161);
+  overflow: hidden;
+}
 .left_bar_list a {
   padding-bottom: 50px;
   padding-top: 50px;
@@ -56,12 +62,24 @@
   color: black;
   flex-direction: column;
 }
-a .new_artical {
-  text-align: center;
-  display: flex;
+.left_logo {
+  width: 137px;
+  border-radius: 1px;
 }
-a .new_info {
+.container {
+  left: 137px;
+  position: fixed;
+  width: calc(100% - 137px);
+}
+.top_bar{
+  height: 50px;
   text-align: center;
   display: flex;
+  align-items: center;
+  background-color: cadetblue;
+}
+.top_action{
+  position: absolute;
+  right: 0px;
 }
 </style>
